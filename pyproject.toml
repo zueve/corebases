@@ -1,0 +1,26 @@
+
+[tool.poetry]
+name = "corebases"
+version = "0.1.0"
+description = "SLQAlchemy.core for asyncpg"
+authors = ["Evgeny Zuev <zueves@gmail.com>"]
+license = "BSD"
+homepage = "https://github.com/MartinThoma/infer_pyproject"
+repository = "https://github.com/MartinThoma/infer_pyproject"
+documentation = "https://github.com/MartinThoma/infer_pyproject"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+asyncpg = "^0.25"
+SQLAlchemy = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3"
+isort = "^5.10"
+mypy = "^0.942"
+flake8 = "^4.0"
+pyclean = "^2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
