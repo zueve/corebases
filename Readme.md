@@ -1,7 +1,10 @@
 # Corebases
 
-Async adapter for Sqlalchemy.Core.
-Interface and code based on [encode/databases](https://github.com/encode/databases), but has bit [difference](#difference-between-encodedatabases).
+> Full power of *asyncpg* with user friendly api of *sqlalchemy.core*
+
+
+Corebases - is *async* adapter for [Sqlalchemy.Core](https://docs.sqlalchemy.org/en/14/core/).
+Interface and code based on [encode/databases](https://github.com/encode/databases), but has bit [difference](#difference-between-encodedatabases). Now supported only **asycnpg** driver (but It's possible to extend)
 
 Current status - **Experimental**
 
@@ -39,8 +42,7 @@ await database.disconnect()
 ```
 
 ## Difference between encode/databases
-
-Principal is bit difference in interface on transactions:
+Principal is a bit of difference in interface on transactions:
 
 *encode/database*:
 
@@ -58,8 +60,8 @@ with database.transaction() as db:
 
 ```
 
-Also *corebases* doesn't support methods:
+Also, *corebases* doesn't support methods:
 - feach_val
 - execute_many
 
-But we can add in in future.
+But we can add in the future.

@@ -1,13 +1,13 @@
 
 [tool.poetry]
 name = "corebases"
-version = "0.1.0"
-description = "SLQAlchemy.core for asyncpg"
+version = "0.1.1"
+description = "Full power of *asyncpg* with user friendly api of *sqlalchemy.core*"
 authors = ["Evgeny Zuev <zueves@gmail.com>"]
 license = "BSD"
-homepage = "https://github.com/MartinThoma/infer_pyproject"
-repository = "https://github.com/MartinThoma/infer_pyproject"
-documentation = "https://github.com/MartinThoma/infer_pyproject"
+homepage = "https://github.com/zueve/corebases"
+repository = "https://github.com/zueve/corebases"
+documentation = "https://github.com/zueve/corebases"
 
 [tool.poetry.dependencies]
 python = "^3.7"
